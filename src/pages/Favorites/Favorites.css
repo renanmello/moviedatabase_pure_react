@@ -1,0 +1,27 @@
+.favorites-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.favorites-container h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.no-favorites {
+  text-align: center;
+  padding: 3rem;
+  color: #666;
+}
+
+.no-favorites p {
+  margin-bottom: 1rem;
+}
